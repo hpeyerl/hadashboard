@@ -1,0 +1,57 @@
+<% content_for :title do %>DebtRidgeDash<% end %>
+
+<div class="gridster"> <!-- Main Panel - PAGE 1 -->
+  <ul>
+    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+      <div data-id="clock" data-view="Clock" data-color="#FF0000"></div>
+    </li>
+	<li data-row="1" data-col="5" data-sizex="1" data-sizey="1">
+		<div data-id="radon_daily" data-view="Hasensor" data-title="1 Day Radon" data-color="#FF0000"></div>
+	</li>
+	<li data-row="1" data-col="6" data-sizex="1" data-sizey="1">
+		<div data-id="radon_weekly" data-view="Hasensor" data-title="7 Day Radon" data-color="#FF0000"></div>
+	</li>
+
+    <li data-row="2" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="furnace_cold_plenum" data-view="Hasensor" data-title="Furnace Cold" data-unit="&deg;C" data-color="#FF0000"></div>
+    </li>
+    <li data-row="2" data-col="2" data-sizex="1" data-sizey="1">
+      <div data-id="furnace_hot_plenum" data-view="Hasensor" data-title="Furnace Hot" data-unit="&deg;C" data-color="#FF0000"></div>
+    </li>
+
+    <li data-row="2" data-col="3" data-sizex="1" data-sizey="1">
+      <div data-id="kitchen_temperature" data-view="Hasensor" data-title="Kitchen Temp" data-unit="&deg;C" data-color="#FF0000"></div>
+    </li>
+
+    <li data-row="2" data-col="4" data-sizex="1" data-sizey="1">
+      <div data-id="frontdoor_temperature" data-view="Hasensor" data-title="Frontdoor Temp" data-unit="&deg;C" data-color="#FF0000"></div>
+    </li>
+
+    <li data-row="3" data-col="1" data-sizex="1" data-sizey="1" data-color="#FF0000">
+      <div data-id="kitchen_humidity" data-view="Hasensor" data-title="Kitchen RH" data-unit="%" data-color="#FF0000"></div>
+    </li>
+
+    <li data-row="3" data-col="2" data-sizex="1" data-sizey="1" data-color="#FF0000">
+      <div data-id="frontdoor_humidity" data-view="Hasensor" data-title="Frontdoor RH" data-unit="%" data-color="#FF0000"></div>
+    </li>
+
+	<li data-row="3" data-col="3" data-sizex="1" data-sizey="1">
+      <div data-id="backdoor_nitelite" data-view="Hadimmer" data-title="Backdoor NightLight" data-color="#FF0000"></div>
+    </li>
+    
+	<li data-row="3" data-col="4" data-sizex="1" data-sizey="1">
+      <div data-id="basement_hall_nitelite" data-view="Hadimmer" data-title="BsmtHall NightLight" data-color="#FF0000"></div>
+    </li>
+    
+	<li data-row="2" data-col="3" data-sizex="1" data-sizey="1">
+		<div data-id="recirculation_pump" data-view="Haswitch" data-title="Recirculation Pump" data-color="#FF0000"></div>
+	</li>
+	<li data-row="2" data-col="3" data-sizex="1" data-sizey="1">
+		<div data-id="hrv_ventilation" data-view="Haswitch" data-title="Ventilation" data-color="#FF0000"></div>
+	</li>
+    
+    <li data-row="2" data-col="5" data-sizex="2" data-sizey="2">
+      <div data-id="weather" data-view="Haweather"> data-unit="&deg;C" data-color="#FF0000"</div>
+    </li>
+  </ul>
+</div>
